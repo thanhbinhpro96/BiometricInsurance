@@ -9,8 +9,8 @@ This program takes in a selfie image, predicts the age and gender of the person 
     │   	├── asian_weights.hdf5					# Training result model on Asian faces dataset
     │   	├── shape_predictor_68_face_landmarks.dat 		# Model to crop and align faces in image     
     │   	└── weights.18-4.06.hdf5				# Pre-trained weights
-    └── age_predictor.py						# Returns predicted age
-    └── gender_predictor.py						# Returns name and predicted gender (name is the image file name 														without extensions)
+    └── age_predictor.py					# Returns predicted age
+    └── gender_predictor.py					# Returns name and predicted gender (name is the image file name 														without extensions)
     └── gui.py								# Starts the GUI for convenient use
     └── wide_resnet.py							# Returns a Wide Residual Network
     └── fine_tune_resnet.py						# Fine-tune model with Asian faces dataset

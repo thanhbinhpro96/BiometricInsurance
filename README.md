@@ -6,14 +6,14 @@ This program takes in a selfie image, predicts the age and gender of the person 
     .
 	├── ...
     ├── models        
-    │   	├── asian_weights.hdf5							# Training result model on Asian faces dataset
+    │   	├── asian_weights.hdf5					# Training result model on Asian faces dataset
     │   	├── shape_predictor_68_face_landmarks.dat 		# Model to crop and align faces in image     
-    │   	└── weights.18-4.06.hdf5						# Pre-trained weights
-    └── age_predictor.py									# Returns predicted age
-    └── gender_predictor.py									# Returns name and predicted gender (name is the image file name without extensions)
-    └── gui.py												# Starts the GUI for convenient use
-    └── wide_resnet.py										# Returns a Wide Residual Network
-    └── fine_tune_resnet.py									# Fine-tune model with Asian faces dataset
+    │   	└── weights.18-4.06.hdf5				# Pre-trained weights
+    └── age_predictor.py						# Returns predicted age
+    └── gender_predictor.py						# Returns name and predicted gender (name is the image file name 														without extensions)
+    └── gui.py								# Starts the GUI for convenient use
+    └── wide_resnet.py							# Returns a Wide Residual Network
+    └── fine_tune_resnet.py						# Fine-tune model with Asian faces dataset
 	
 ## Prerequisites
 
@@ -82,7 +82,7 @@ The **Name** field value is the selfie image file name after removing the extens
 
 Example result:
 
-![](/images/Capture.PNG?raw=true)
+![](/images/demo.PNG?raw=true)
 
 ### Fine-tune Wide Residual Network demo
 
